@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Expense Tracker</title>
+    <title>Finance Tracker</title>
 </head>
+
 <body>
-    <h2>Expense Tracker</h2>
+    <h2>Finance Tracker</h2>
 
     <div class="container">
         <h4>Your Balance</h4>
@@ -32,13 +34,12 @@
         <h3>Add new transaction</h3>
         <form id="form">
             <div class="form-control">
-                <label for="text">Text</label>
-                <input type="text" id="text" placeholder="Enter text..." />
+                <label for="text">Title</label>
+                <input type="text" id="text" placeholder="Enter title..." />
             </div>
-            <div class="form-control">
+            <div class="form-group">
                 <label for="amount">
-                    Amount <br />
-                    (negative - expense, positive - income)
+                    Amount (negative for expense, positive for income)
                 </label>
                 <input type="number" id="amount" placeholder="Enter amount..." />
             </div>
@@ -48,4 +49,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
